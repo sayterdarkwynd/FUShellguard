@@ -1,0 +1,102 @@
+[
+    [{
+            "op": "test",
+            "path": "/sgmechartillery"
+        },{
+            "op": "add",
+            "path": "/sgmechartillery/stats/mechMass",
+            "value": 7
+        },{
+            "op": "replace",
+            "path": "/sgmechartillery/partParameters/projectileParameters/power",
+            "value": 15
+        },{
+            "op": "add",
+            "path": "/sgmechartillery/stats/multicount",
+            "value": 4
+        }
+    ],    
+    [{
+            "op": "test",
+            "path": "/sgmechheavyminigun"
+        },{
+            "op": "add",
+            "path": "/sgquadshot/stats/mechMass",
+            "value": 7
+        },{
+            "op": "replace",
+            "path": "/sgquadshot/partParameters/projectileParameters/power",
+            "value": 5
+        },{
+            "op": "add",
+            "path": "/sgquadshot/stats/rapidFire",
+            "value": 4
+        }
+    ],      
+    [{
+            "op": "test",
+            "path": "/sgquadshot"
+        },{
+            "op": "add",
+            "path": "/sgquadshot/stats/mechMass",
+            "value": 4
+        },{
+            "op": "replace",
+            "path": "/sgquadshot/partParameters/projectileParameters/power",
+            "value": 15
+        },{
+            "op": "add",
+            "path": "/sgquadshot/stats/multicount",
+            "value": 4
+        }
+    ],    
+    [{
+            "op": "test",
+            "path": "/sgmechgattling"
+        },{
+            "op": "add",
+            "path": "/sgmechgattling/stats/mechMass",
+            "value": 6
+        },{
+            "op": "replace",
+            "path": "/sgmechgattling/partParameters/projectileParameters/power",
+            "value": 4.5
+        },{
+            "op": "add",
+            "path": "/sgmechgattling/stats/rapidFire",
+            "value": 3
+        }
+    ],    
+    [{
+            "op": "test",
+            "path": "/sgmechrocket"
+        },{
+            "op": "add",
+            "path": "/sgmechrocket/stats/mechMass",
+            "value": 7
+        },{
+            "op": "replace",
+            "path": "/sgmechrocket/partParameters/projectileParameters/power",
+            "value": 15
+        }
+    ],    
+    [{
+            "op": "test",
+            "path": "/sgmechgiantlaser"
+        },{
+            "op": "add",
+            "path": "/sgmechgiantlaser/stats/mechMass",
+            "value": 7
+        },{
+            "op": "add",
+            "path": "/beamsniper/stats/basePower",
+            "value": 15
+        }, {
+            "op": "replace",
+            "path": "/beamsniper/damageSources/<armName>Beam/damage",
+            "value": 0
+        }
+    ]          
+    
+             
+]

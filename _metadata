@@ -1,0 +1,11 @@
+{
+  "version" : "1.0",
+  "author" : "sayter",
+  "tags" : "Vehicles and Mounts",
+  "description" : "Nothing fancy. Adds compatability for Shellguard mech parts to utilize FU mech stats, such as Mass, health bonus, energy adjustments, and so forth.",
+  "name" : "FU_ShellguardMech",
+  "friendlyName" : "FU / Shellfuard Mech Compatability",
+  "steamContentId" : "1686763043",
+  "link" : "steam://url/CommunityFilePage/1686763043",
+  "includes" : ["FrackinUniverse", "Shellguard Expansion "]
+}

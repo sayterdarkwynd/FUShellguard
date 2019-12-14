@@ -1,0 +1,72 @@
+[
+	[
+	{ "op": "test", "path": "/shellguardbodyheavy", "inverse" : false },
+	{"op": "add","path": "/shellguardbodyheavy/stats/mechMass","value": 9},
+	{"op": "replace","path": "/shellguardbodyheavy/stats/protection","value": 9},
+	{"op": "add","path": "/shellguardbodyheavy/stats/healthBonus","value": 1.25},
+	{"op": "add","path": "/shellguardbodyheavy/stats/energyBonus","value": 0.85},
+		{
+			"op": "add",
+			"path": "/shellguardbodyheavy/partParameters/hazardImmunities",
+			"value": [
+				"desertweathernew",
+				"jungleheatweather",
+				"protoweather",
+				"gasworld1",
+				"gasworld2",
+				"gasworld3",
+				"radioactiveweathernew",
+				"poisonweathernew",
+				"poisonweathernewbiome",
+				"biomepoisongas",
+				"biomepoison1",
+				"biomecold",
+				"coldweathernew",
+				"ffbiomecold0",
+				"ffbiomecold1",
+				"ffbiomecold2",
+				"ffbiomecold3",
+				"biomeheat",
+				"ffbiomeheat1",
+				"ffbiomeheat2",
+				"ffbiomeheat3",
+				"heatweathernew"
+			]
+		}	
+	],	
+	[
+	{ "op": "test", "path": "/Shellguardbodyconstruction", "inverse" : false },
+	{"op": "replace","path": "/shellguardbodyheavy/stats/protection","value": 6},
+	{"op": "add","path": "/Shellguardbodyconstruction/stats/mechMass","value": 7},
+	{"op": "add","path": "/Shellguardbodyconstruction/stats/energyBonus","value": 1.25},
+		{
+			"op": "add",
+			"path": "/Shellguardbodyconstruction/partParameters/hazardImmunities",
+			"value": [
+				"desertweathernew",
+				"jungleheatweather",
+				"protoweather",
+				"gasworld1",
+				"gasworld2",
+				"gasworld3",
+				"radioactiveweathernew",
+				"poisonweathernew",
+				"poisonweathernewbiome",
+				"biomepoisongas",
+				"biomepoison1",
+				"biomecold",
+				"coldweathernew",
+				"ffbiomecold0",
+				"ffbiomecold1",
+				"ffbiomecold2",
+				"ffbiomecold3",
+				"biomeheat",
+				"ffbiomeheat1",
+				"ffbiomeheat2",
+				"ffbiomeheat3",
+				"heatweathernew"
+			]
+		}	
+	]	
+
+]

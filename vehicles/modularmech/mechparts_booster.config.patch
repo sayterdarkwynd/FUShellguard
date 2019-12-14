@@ -1,0 +1,6 @@
+[
+	[
+	  { "op": "test", "path": "/sgmechradiatorbooster"},
+	  { "op": "add", "path": "/sgmechradiatorbooster/stats/mechMass","value": 6 }	
+	]	
+]
