@@ -2,5 +2,9 @@
 	[
 	  { "op": "test", "path": "/sgmechradiatorbooster"},
 	  { "op": "add", "path": "/sgmechradiatorbooster/stats/mechMass","value": 6 }	
-	]	
+	],
+	[
+	  { "op": "test", "path": "/sgmechgunbooster"},
+	  { "op": "add", "path": "/sgmechgunbooster/stats/mechMass","value": 5 }	
+	]			
 ]
