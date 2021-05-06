@@ -32,11 +32,19 @@
 				"ffbiomeheat3",
 				"heatweathernew"
 			]
+		},			
+		{
+			"op": "add",
+			"path": "/shellguardbodyheavy/partParameters/liquidImmunities",
+			"value": {
+				"darkwater": true,
+				"liquidnitrogen": true
+			}
 		}	
 	],	
 	[
 	{ "op": "test", "path": "/shellguardbodyconstruction", "inverse" : false },
-	{"op": "replace","path": "/shellguardbodyheavy/stats/protection","value": 6},
+	{"op": "replace","path": "/shellguardbodyconstruction/stats/protection","value": 6},
 	{"op": "add","path": "/shellguardbodyconstruction/stats/mechMass","value": 7},
 	{"op": "add","path": "/shellguardbodyconstruction/stats/energyBonus","value": 1.25},
 		{
@@ -66,6 +74,14 @@
 				"ffbiomeheat3",
 				"heatweathernew"
 			]
+		},			
+		{
+			"op": "add",
+			"path": "/shellguardbodyheavy/partParameters/liquidImmunities",
+			"value": {
+				"darkwater": true,
+				"liquidnitrogen": true
+			}
 		}	
 	],
 	[
@@ -74,9 +90,9 @@
 	{"op": "replace","path": "/shellguardbodyultraheavy/stats/protection","value": 9},
 	{"op": "add","path": "/shellguardbodyultraheavy/stats/healthBonus","value": 1.5},
 	{"op": "add","path": "/shellguardbodyultraheavy/stats/energyBonus","value": 0.75},
-		{
+	{
 			"op": "add",
-			"path": "/shellguardbodyheavy/partParameters/hazardImmunities",
+			"path": "/shellguardbodyultraheavy/partParameters/hazardImmunities",
 			"value": [
 				"desertweathernew",
 				"jungleheatweather",
@@ -101,6 +117,16 @@
 				"ffbiomeheat3",
 				"heatweathernew"
 			]
-		}	
+		},			
+		{
+			"op": "add",
+			"path": "/shellguardbodyheavy/partParameters/liquidImmunities",
+			"value": {
+				"fuironliquid": true,
+				"lava": true,
+				"darkwater": true,
+				"liquidnitrogen": true
+			}
+		}		
 	]
 ]

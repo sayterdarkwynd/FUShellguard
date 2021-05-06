@@ -9,7 +9,7 @@
         },{
             "op": "replace",
             "path": "/sgmechrailgun/partParameters/projectileParameters/power",
-            "value": 35
+            "value": 37
         }
     ],  
     [{
@@ -73,7 +73,7 @@
         },{
             "op": "replace",
             "path": "/sgmechgattling/partParameters/projectileParameters/power",
-            "value": 6
+            "value": 7
         },{
             "op": "add",
             "path": "/sgmechgattling/stats/rapidFire",
@@ -90,7 +90,7 @@
         },{
             "op": "replace",
             "path": "/sgmechrocket/partParameters/projectileParameters/power",
-            "value": 15
+            "value": 16
         }
     ],    
     [{
@@ -103,7 +103,7 @@
         },{
             "op": "add",
             "path": "/beamsniper/stats/basePower",
-            "value": 15
+            "value": 17
         }, {
             "op": "replace",
             "path": "/beamsniper/damageSources/<armName>Beam/damage",
